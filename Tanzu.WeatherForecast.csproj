@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <RootNamespace>Tanzu.WeatherForecast</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.*" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="StaticFiles/**/*">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <_ContentIncludedByDefault Remove="Tanzu.WeatherForecast.Tests\obj\project.assets.json" />
+    <_ContentIncludedByDefault Remove="Tanzu.WeatherForecast.Tests\obj\project.packagespec.json" />
+    <_ContentIncludedByDefault Remove="Tanzu.WeatherForecast.Tests\obj\Tanzu.WeatherForecast.Tests.csproj.nuget.dgspec.json" />
+  </ItemGroup>
+
+</Project>

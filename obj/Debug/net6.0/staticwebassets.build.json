@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "CjsTqeO/2Gm+ywxCV4xtawUB6xgLrcCNqYiNmfvpiI4=",
+  "Source": "Tanzu.WeatherForecast",
+  "BasePath": "_content/Tanzu.WeatherForecast",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
